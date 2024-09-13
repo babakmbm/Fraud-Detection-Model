@@ -9,11 +9,11 @@ hyperparameter tuning and MLflow logging. Models are saved for future use.
 
 Usage from the terminal:
     Default: 
-        - python Babak_Rahi_FeatureSpace.py
+        - python Fraud Detection Classic ML Models.py
     Default with requirements installation:
-        - python Babak_Rahi_FeatureSpace.py --install
+        - python Fraud Detection Classic ML Models.py --install
     Custom file paths and methods:
-        - python Babak_Rahi_FeatureSpace.py --transactions path/to/transactions.csv --labels path/to/labels.csv --data_dict path/to/data-dictionary.xlsx --method account --mlflow --tuning
+        - python Fraud Detection Classic ML Models.py --transactions path/to/transactions.csv --labels path/to/labels.csv --data_dict path/to/data-dictionary.xlsx --method account --mlflow --tuning
     
 Options:
     --transactions : Path to the transactions CSV file.

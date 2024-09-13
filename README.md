@@ -10,13 +10,12 @@ This repository contains a Python-based fraud detection model training script. I
 4. [Usage](#usage)
 5. [Balancing Methods](#balancing-methods)
 6. [Model Training and Evaluation](#model-training-and-evaluation)
-7. [Results](#results)
-8. [License](#license)
+7. [License](#license)
 
 ---
 
 ## Overview
-The aim of this project is to build an efficient fraud detection model that identifies fraudulent transactions from a given dataset. We use techniques like undersampling, SMOTE, and account-based sampling to handle imbalanced datasets.
+The aim of this repo is to build an efficient fraud detection model that identifies fraudulent transactions from a given datasets. We use techniques like undersampling, SMOTE, and account-based sampling to handle imbalanced datasets.
 
 The script can:
 - Load transaction and label datasets.
@@ -89,10 +88,10 @@ We experimented with three data balancing techniques:
 
 ### Example: ROC Curves for Balancing Methods
 **Random Undersampling**:
-![ROC Random Undersampling](plots/EDAPlots/ROC-Random_Undersampling.png)
+![ROC Random Undersampling](/plots/EDAPlots/ROC-Random%20Undersampling.png)
 
 **Account-Based Undersampling**:
-![Fraud vs Non-Fraud Transaction Count (Account)](plots/EDAPlots/Fraud_vs_Non-Fraud_Transaction_Count_Account-Level_Undersampling.png)
+![Fraud vs Non-Fraud Transaction Count (Account)](/plots/Account_Balancing_roc_curve.png)
 
 ---
 
@@ -107,27 +106,20 @@ The script trains four machine learning models:
 Each model is evaluated based on multiple metrics, including Accuracy, Precision, Recall, F1-Score, and ROC-AUC. Hyperparameter tuning is available if needed.
 
 ### Example: Correlation Matrix of Features
-![Correlation Matrix](plots/EDAPlots/Correlation_Matrix.png)
+![Correlation Matrix](/plots/EDAPlots/Correlation%20Matrix.png)
 
 ### Example: Boxplots of Features
 **Boxplot of Available Cash:**
-![Boxplot Available Cash](plots/EDAPlots/Boxplot_of_Available_Cash.png)
+![Boxplot Available Cash](/plots/EDAPlots/Boxplot%20of%20Available%20Cash.png)
 
 **Boxplot of Transaction Amounts:**
-![Boxplot Transaction Amounts](plots/EDAPlots/Boxplot_of_Transaction_Amounts.png)
+![Boxplot Transaction Amounts](/plots/EDAPlots/Boxplot%20of%20Transaction%20Amounts.png)
 
 ### Example: Distribution of Fraudulent Transactions
 **Distribution by Fraud Status:**
-![Distribution of Available Cash by Fraud Status](plots/EDAPlots/Distribution_of_Available_Cash_by_Fraud_Status.png)
+![Distribution of Available Cash by Fraud Status](/plots/EDAPlots/Distribution%20of%20Available%20Cash%20by%20Fraud%20Status.png)
 
 ---
-
-## Results
-
-### Model Comparison: ROC Curves
-The ROC curve below shows the model performance for different balancing techniques.
-
-![ROC Random Undersampling](plots/EDAPlots/ROC-Random_Undersampling.png)
 
 ### Fraud Detection Metrics
 After running the models, the results are saved in the `results/metrics_summary.csv` file.
