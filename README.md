@@ -59,13 +59,13 @@ pip install -r requirements.txt
 ### Run the Default Script
 To run the default script with provided datasets:
 ```bash
-python Babak_Rahi_FeatureSpace.py
+python python Fraud Detection Classic ML Models.py
 ```
 
 ### Customize File Paths
 To specify custom paths for the dataset:
 ```bash
-python Babak_Rahi_FeatureSpace.py --transactions path/to/transactions.csv --labels path/to/labels.csv --data_dict path/to/data-dictionary.xlsx --method account --mlflow --tuning
+python python Fraud Detection Classic ML Models.py --transactions path/to/transactions.csv --labels path/to/labels.csv --data_dict path/to/data-dictionary.xlsx --method account --mlflow --tuning
 ```
 
 ### Options:
