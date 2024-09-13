@@ -89,10 +89,10 @@ We experimented with three data balancing techniques:
 
 ### Example: ROC Curves for Balancing Methods
 **Random Undersampling**:
-![ROC Random Undersampling](./plots/ROC-Random_Undersampling.png)
+![ROC Random Undersampling](plots/EDAPlots/ROC-Random_Undersampling.png)
 
 **Account-Based Undersampling**:
-![Fraud vs Non-Fraud Transaction Count (Account)](./plots/Fraud_vs_Non-Fraud_Transaction_Count_Account-Level_Undersampling.png)
+![Fraud vs Non-Fraud Transaction Count (Account)](plots/EDAPlots/Fraud_vs_Non-Fraud_Transaction_Count_Account-Level_Undersampling.png)
 
 ---
 
@@ -107,18 +107,18 @@ The script trains four machine learning models:
 Each model is evaluated based on multiple metrics, including Accuracy, Precision, Recall, F1-Score, and ROC-AUC. Hyperparameter tuning is available if needed.
 
 ### Example: Correlation Matrix of Features
-![Correlation Matrix](./plots/Correlation_Matrix.png)
+![Correlation Matrix](plots/EDAPlots/Correlation_Matrix.png)
 
 ### Example: Boxplots of Features
 **Boxplot of Available Cash:**
-![Boxplot Available Cash](./plots/Boxplot_of_Available_Cash.png)
+![Boxplot Available Cash](plots/EDAPlots/Boxplot_of_Available_Cash.png)
 
 **Boxplot of Transaction Amounts:**
-![Boxplot Transaction Amounts](./plots/Boxplot_of_Transaction_Amounts.png)
+![Boxplot Transaction Amounts](plots/EDAPlots/Boxplot_of_Transaction_Amounts.png)
 
 ### Example: Distribution of Fraudulent Transactions
 **Distribution by Fraud Status:**
-![Distribution of Available Cash by Fraud Status](./plots/Distribution_of_Available_Cash_by_Fraud_Status.png)
+![Distribution of Available Cash by Fraud Status](plots/EDAPlots/Distribution_of_Available_Cash_by_Fraud_Status.png)
 
 ---
 
@@ -127,7 +127,7 @@ Each model is evaluated based on multiple metrics, including Accuracy, Precision
 ### Model Comparison: ROC Curves
 The ROC curve below shows the model performance for different balancing techniques.
 
-![ROC Random Undersampling](./plots/ROC-Random_Undersampling.png)
+![ROC Random Undersampling](plots/EDAPlots/ROC-Random_Undersampling.png)
 
 ### Fraud Detection Metrics
 After running the models, the results are saved in the `results/metrics_summary.csv` file.
